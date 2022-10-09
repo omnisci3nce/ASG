@@ -1,0 +1,28 @@
+{
+  "name": "asg",
+  "version": "1.0.0",
+  "description": "Autodidactic Study Group",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -p 4000 ./dist",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "ejs src/index.ejs -o dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnisci3nce/ASG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omnisci3nce/ASG/issues"
+  },
+  "homepage": "https://github.com/omnisci3nce/ASG#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.8",
+    "tailwindcss": "^3.1.8"
+  }
+}
